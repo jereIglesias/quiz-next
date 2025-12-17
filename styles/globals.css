@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800 antialiased;
+}
+
+.container {
+  @apply max-w-3xl mx-auto px-4 py-8;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-6;
+}
+
+.button-primary {
+  @apply bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700;
+}
+
+.option-btn {
+  @apply w-full text-left p-3 border rounded-md mb-3;
+}
+
+.option-correct {
+  @apply bg-green-100 border-green-400 text-green-800;
+}
+
+.option-wrong {
+  @apply bg-red-100 border-red-400 text-red-800;
+}

@@ -1,0 +1,79 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué es Next.js?",
+      "opciones": [
+        "Una base de datos",
+        "Un framework de React",
+        "Un lenguaje de programación",
+        "Un editor de código"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Next.js es un framework de React para construir aplicaciones web en producción."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué hook se usa para manejar estado en componentes funcionales?",
+      "opciones": ["useState", "useEffect", "useContext"],
+      "respuestaCorrecta": 0,
+      "explicacion": "useState permite declarar y actualizar estado en componentes funcionales de React."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cuál es la extensión recomendada para archivos de componentes con TypeScript?",
+      "opciones": [".js", ".jsx", ".tsx"],
+      "respuestaCorrecta": 2,
+      "explicacion": "Con TypeScript los componentes React usan la extensión .tsx."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué propiedad de Tailwind aplica un fondo de color indigo?",
+      "opciones": ["bg-indigo-600", "text-indigo-600", "border-indigo-600"],
+      "respuestaCorrecta": 0,
+      "explicacion": "Las clases bg-* en Tailwind definen el color de fondo."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué método de Array devuelve un nuevo array con los elementos transformados?",
+      "opciones": ["filter", "map", "reduce"],
+      "respuestaCorrecta": 1,
+      "explicacion": "map() aplica una función y devuelve un nuevo array con los resultados."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál de estas es una ventaja de usar Next.js?",
+      "opciones": ["Renderizado del lado servidor (SSR)", "Solo funciona en móviles", "No permite rutas"],
+      "respuestaCorrecta": 0,
+      "explicacion": "Next.js soporta SSR, generación estática y muchas optimizaciones."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué significa 'responsive' en diseño web?",
+      "opciones": ["Que usa muchos recursos", "Que se adapta a diferentes tamaños de pantalla", "Que es de solo lectura"],
+      "respuestaCorrecta": 1,
+      "explicacion": "Responsive significa que el diseño se adapta a múltiples dispositivos y tamaños."
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Cuál es la función de useEffect en React?",
+      "opciones": ["Gestionar efectos secundarios", "Declarar estado", "Crear rutas"],
+      "respuestaCorrecta": 0,
+      "explicacion": "useEffect se usa para efectos secundarios como fetch, timers o suscripciones."
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Qué etiqueta HTML se usa para enlaces?",
+      "opciones": ["<div>", "<a>", "<span>"],
+      "respuestaCorrecta": 1,
+      "explicacion": "La etiqueta <a> se usa para enlaces y navegación."
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Cuál es el operador para asignación en JavaScript?",
+      "opciones": ["==", "=", "==="],
+      "respuestaCorrecta": 1,
+      "explicacion": "El operador = es de asignación; == y === son comparadores."
+    }
+  ]
+}
